@@ -1,0 +1,30 @@
+
+{
+  "name": "react-native-loading-progress",
+  "version": "1.0.0",
+  "description": "React Native wrapper for SVProgressHUD library on iOS and KProgressHUD library on Android.",
+  "main": "progresshud.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medlmobileenterprises/react-native-loading-progress.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "mobile",
+    "loading spinner",
+    "progress hud",
+    "cocoapod"
+  ],
+  "author": {
+    "name": "MEDL Mobile Enterprises",
+    "email": "dev@medlmobile.com"
+  },
+  "homepage": "https://github.com/medlmobileenterprises/react-native-loading-progress",
+  "license": "MIT"
+}
