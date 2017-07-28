@@ -17,8 +17,8 @@
     "ios",
     "android",
     "mobile",
-    "loading spinner",
-    "progress hud",
+    "loading-spinner",
+    "progress-hud",
     "cocoapod"
   ],
   "author": {
