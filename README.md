@@ -32,7 +32,7 @@
       compile project(':react-native-progress-display')
   	```
 
-#### iOS Dependency Installation:
+### iOS Dependency Installation:
 ***Important: This package depends on SVProgressHUD library. Please make sure you also install SVProgressHUD***
 1. Go to <https://github.com/SVProgressHUD/SVProgressHUD>
 2. Follow the installation instructions and install before trying to run your project with the react-native-progress-display package installed.
