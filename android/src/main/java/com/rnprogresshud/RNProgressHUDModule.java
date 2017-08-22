@@ -135,7 +135,14 @@ public class RNProgressHUDModule extends ReactContextBaseJavaModule {
 
     private KProgressHUD showProgressHUD(Integer maskTypeInteger, KProgressHUDStyle style, String status) {
         Context context = this.reactContext.getCurrentActivity();
-        if (context != null && this.progressHUD == null) {
+        if (this.progressHUD == null) {
+            this.progressHUD = KProgressHUD.create(context);
+            if (this.progressHUD.isShowing()) {
+                this.progressHUD.dismiss();
+            }
+            this.progressHUD = null;
+        }
+        if (context != null) {
             KProgressHUDMaskType maskType = getMaskTypeForInteger(maskTypeInteger);
             this.progressHUD = KProgressHUD.create(context)
                     .setCancellable(getIsCancellableForMaskType(maskType))
