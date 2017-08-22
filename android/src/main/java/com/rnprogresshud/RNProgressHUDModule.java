@@ -135,7 +135,7 @@ public class RNProgressHUDModule extends ReactContextBaseJavaModule {
 
     private KProgressHUD showProgressHUD(Integer maskTypeInteger, KProgressHUDStyle style, String status) {
         Context context = this.reactContext.getCurrentActivity();
-        if (this.progressHUD == null) {
+        if (this.progressHUD != null) {
             this.progressHUD = KProgressHUD.create(context);
             if (this.progressHUD.isShowing()) {
                 this.progressHUD.dismiss();
