@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-progress-display",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native wrapper for SVProgressHUD library on iOS and KProgressHUD library on Android.",
   "main": "progresshud.js",
   "repository": {
